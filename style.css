@@ -1,0 +1,158 @@
+		html {
+			
+		}
+		body {
+			font-family: Garamond, Verdana, Serif;
+			font-size: 105%;
+			margin: 0px;
+			padding: 0px;
+			background: url("bg_top-x.gif") top left repeat-x;
+			text-align: center;
+		}
+		
+		#container {
+			width: 760px;
+			margin: 0px auto;
+		}
+		#content {
+			float: left;
+			width: 510px;
+			margin-top: -290px;
+			margin-bottom: 20px;
+			padding: 0px 10px 0px 10px;
+			background: url("bg_main-y.gif") top right repeat-y;
+			text-align: left;
+		}
+		#navi {
+			float: right;
+			width: 210px;
+			margin-top: -290px;
+			padding: 0px 10px 0px 10px;
+			text-align: right;
+		}
+		#navi ul {
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			font-size: 110%;
+		}
+		#navi a:link,
+		#navi a:visited,
+		#navi a:active {
+			font-weight: bold;
+			line-height: 1.5;
+		}
+		#header {
+			width: 760px;
+			height: 500px;
+			background: url("header.jpg") top center no-repeat;
+			margin-top: 100px;
+			text-align: left;
+		}
+		#header img {
+			position: relative;
+			top: -70px;
+			left: 100px;
+		}
+		#header h1 {
+			position: relative;
+			top: -75px;
+			left: 50px;
+			font-size: 250%;
+			letter-spacing: 0.25em;
+		}
+		#header a:link,
+		#header a:visited,
+		#header a:active {
+			color: #FFF;
+		}
+		#header a:hover {
+			color: #BB031D;
+			border-bottom: 1px #FFF dotted;
+		}
+		#footer {
+			width: 760px;
+			clear: both;
+			background: url("bg_main-y.gif") top left repeat-x;
+			padding-top: 10px;
+		}
+		
+		a:link,
+		a:visited,
+		a:active {
+			color: #f6384d;
+			text-decoration: underline;
+		}
+		a:hover {
+			text-decoration: none;
+			color: #000;
+		}
+		h2 {
+			border-bottom: 1px #ffdbdf solid;
+		}
+		
+#overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #000;
+filter:alpha(opacity=70);
+-moz-opacity:0.7;
+-khtml-opacity: 0.7;
+opacity: 0.7;
+z-index: 100;
+display: none;
+
+}
+.cnt223 a{
+text-decoration: none;
+}
+.popup{
+
+margin: 0 auto;
+display: none;
+position: fixed;
+z-index: 101;
+
+}
+@keyframes myanimation {
+
+  100% {background-color: red;}
+}
+.cnt223{
+min-width: 150px;
+width:600px;
+min-height: 150px;
+margin: 0px auto;
+background: #fff;
+position: static;
+z-index: 103;
+padding: 15px 35px;
+border-radius: 5px;
+box-shadow: 0 2px 5px #000;
+animation: myanimation 40s ;
+}
+.cnt223 p{
+clear: both;
+    color: #000;
+    /* text-align: justify; */
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.cnt223 p a{
+color: #033066;
+font-weight: bold;
+}
+.cnt223 .x{
+float: right;
+height: 35px;
+left: 22px;
+position: relative;
+top: -25px;
+width: 34px;
+}
+.cnt223 .x:hover{
+cursor: pointer;
+}
